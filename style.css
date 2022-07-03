@@ -281,7 +281,7 @@
   transform: scale(1.2);
 }
 
-/*Fin animacion del boton eb¿nviar del formulario del home*/
+/*Fin animacion del boton enviar del formulario del home*/
 
 /*Fin estilos sectionCuatro*/
 
@@ -607,14 +607,12 @@
   }
 
   .sectionUno .sectionUno__contenedor1 .sectionUno__registrarse {
-    top: 2%;
     position: relative;
     color: white;
     padding: 5px 10px;
     width: fit-content;
     background-color: #f29985;
     text-decoration: none;
-    box-shadow: 1px 1px 2px #56beb6;
   }
 
   /*Fin estilos sectionUno Home mobile*/
