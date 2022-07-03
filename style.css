@@ -630,7 +630,7 @@
   }
 
   .sectionDos .sectionDos__contenedor1__video {
-    width: 90%;
+    width: 250px;
   }
 
   .sectionDos .sectionDos__contenedor1 p {
@@ -695,6 +695,17 @@
   }
 
   /*Fin estilos sectionTres Home mobile*/
+
+  /*Fin estilos del home en mobile*/
+
+  /*-----------------------------------------------------------------*/
+
+  /*Inicio estilos home para pantallas medianas*/
+
+  @media only screen and (min-width: 481px) and (max-width: 960px) {
+  }
+
+  /*Fin estilos home para pantallas medianas*/
 
   /*Fin estilos Home*/
 
