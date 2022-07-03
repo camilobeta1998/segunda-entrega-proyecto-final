@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Gelatos Mavid</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+
+<body class="grid-container">
+  <!--header-->
+  <header id="arriba" class="header">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="multimedia/images/logo_gelato.jpg" alt="mavid gelatos" class="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mostrar" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/sabores.html">Sabores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/contactanos.html">Contactanos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/historia.html">Historia</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+  </header>
+  <!--Fin header-->
+
+  <!--inicio Section uno-->
+  <section class="sectionUno">
+    <!--Aquí irá la primera imagen del Home que abarcará el ancho de la página-->
+
+    <img src="multimedia/images/banner.jpg" alt="Deliciosos gelatos de diferentes colores">
+
+    <div class="sectionUno__contenedor1">
+      <!--Párrafo que estará sobre la primera imagen del home-->
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis iusto earum accusantium eveniet nisi amet
+        uttenetur hic officia commodi laboriosam unde autem, illo ratione ducimus eius repellendus blanditiis
+        minima! Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi fugiat, iste corporis expedita asperiores
+
+      </p>
+
+
+      <!--Botón - Registrate-->
+      <a href="#registro" class="sectionUno__registrarse">Registrate</a>
+
+    </div>
+
+
+  </section>
+  <!-- Fin section uno-->
+
+
+  <!--Inicio Section dos-->
+  <section class="sectionDos">
+    <!-- Aquí me gustaría colocar un dividir, consulte y llegue a la etiqueta <hr>-->
+
+    <div class="sectionDos__contenedor1">
+      <!--Aquí irá un video con alusión a los Gelatos-->
+      <video src="multimedia/videos/video_gelateria.mp4" autoplay controls muted
+        class="sectionDos__contenedor1__video"></video>
+
+
+      <!--Parrafo que estará al lado derecho del video-->
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+        deserunt neque repellendus mollitia,
+        nostrum magnam
+        saepe nemo inventore aliquam nam aperiam necessitatibus ducimus et ea? Numquam quae assumenda corrupti
+        perferendis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, at architecto vel
+        adipisci
+      </p>
+    </div>
+
+  </section>
+  <!--Fin section dos-->
+
+
+  <!--Inicio Section tres-->
+  <section class="sectionTres">
+
+    <!--Inicio div uno-->
+    <div class="sectionTres__contenedor ">
+      <img src="multimedia/images/niño1.jpg" alt="Niño apreciando un Gelato"></img>
+      <p class="nombre">David Betancur</p>
+      <p class="sectionTres__david otro">"Me gusta mucho esté helado mami"</p>
+    </div>
+    <!--Fin div uno-->
+
+    <!--Inicio div dos-->
+    <div class="sectionTres__contenedor">
+      <img src="multimedia/images/niño2.jpg" alt="Niño pequeño comiendo un delicioso Gelato"></img>
+      <p class="nombre">Maximiliano Rodriguez</p>
+      <p>"Papi quiero otro"</p>
+    </div>
+    <!--Fin div dos-->
+
+    <!--Inicio div tres-->
+    <div class="sectionTres__contenedor sectionTres__div3">
+      <img src="multimedia/images/cliente.jpg" alt="Hombre recomendando el delicioso Gelato"></img>
+      <p class="nombre">Pedro Pablo Cifuentes</p>
+      <p class="sectionTres__div3__frase3">"Delicioso"</p>
+    </div>
+
+    <!--Fin div tres-->
+
+  </section>
+
+
+  <!--Inicio section cuatro-->
+  <section class="sectionCuatro">
+
+    <p id="registro" class="registrate">Regístrate</p>
+    <!--Aquí irá el formulario de registro como se ve en el wireframe-->
+    <div class="col">
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Correo electronico</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">
+            Nunca compartiremos su correo electrónico con nadie más.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+    </div>
+    <!--Aquí irá el botón de enviar-->
+
+  </section>
+
+  </section>
+
+  <!--Fin section 4-->
+
+
+
+  <!--Inicio Footer-->
+  <footer class="pie">
+
+    <div class="pie__contenedor1">
+      <p>Ubicación</p>
+      <p>Carrera 50A # 46 26</p>
+      <p>Síguenos</p>
+
+    </div>
+    <div class="pie__contenedor2">
+      <img src="multimedia/images/messenger.png" alt="Logo messenger">
+      <img src="multimedia/images/whatsapp.png" alt="Logo Whatsapp">
+      <img src="multimedia/images/instagram.png" alt="Logo Instagram">
+
+    </div>
+
+    <!--Aquí irá el botón subir -->
+
+    <div class="pie__contenedor3">
+      <!--Aquí pondremos el simbolo internacional de id , para que el id con el nombre "arriba"-->
+      <a href="#arriba">Volver arriba</a>
+
+    </div>
+
+
+
+  </footer>
+  <!--Fin Footer-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
