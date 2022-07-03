@@ -700,13 +700,6 @@
 
   /*-----------------------------------------------------------------*/
 
-  /*Inicio estilos home para pantallas medianas*/
-
-  @media only screen and (min-width: 481px) and (max-width: 960px) {
-  }
-
-  /*Fin estilos home para pantallas medianas*/
-
   /*Fin estilos Home*/
 
   /*-----------------------------------------------------------------*/
@@ -825,3 +818,10 @@
     top: 0;
   }
 }
+
+/*Inicio estilos home para pantallas medianas del home*/
+
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+}
+
+/*Fin estilos home para pantallas medianas*/
