@@ -315,8 +315,8 @@
   text-decoration: none;
   background-color: #f29985;
   height: 20px;
-  padding-top: 20px;
-  padding-bottom: 40px;
+  padding-top: 10px;
+  padding-bottom: 30px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -675,14 +675,6 @@
     font-family: "Roboto", sans-serif;
   }
 
-  .sectionTres .sectionTres__contenedor .otro {
-    width: 80%;
-    color: white;
-    position: relative;
-    bottom: 2%;
-    font-family: "Roboto", sans-serif;
-  }
-
   .sectionTres .sectionTres__div3 .sectionTres__div3__frase3 {
     width: 80%;
     text-align: center;
@@ -822,6 +814,81 @@
 /*Inicio estilos home para pantallas medianas del home*/
 
 @media only screen and (min-width: 481px) and (max-width: 960px) {
+  /*Inicio maquetacion para pantallas medianas*/
+  /*Inicio maquetacion index*/
+  .grid-container {
+    display: grid;
+    grid-template-rows: 80px 250px 400px 600px 400px 400px;
+    grid-template-areas:
+      "header"
+      "sectionUno"
+      "sectionDos"
+      "sectionTres"
+      "sectionTres"
+      "sectionCuatro"
+      "footer";
+  }
+
+  .sectionUno .sectionUno__contenedor1 p {
+    width: 98%;
+    font-size: 14px;
+  }
+
+  .sectionUno .sectionUno__contenedor1 .sectionUno__registrarse {
+    position: relative;
+    color: white;
+    padding: 5px 10px;
+    width: fit-content;
+    background-color: #f29985;
+    text-decoration: none;
+  }
+
+  /*Fin sectionUno del home de pantallas medianas*/
+
+  /*Inicio sectionTres del home de pantallas medianas*/
+
+  .sectionTres {
+    background-color: #f2cf66;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .sectionTres .sectionTres__contenedor {
+    background-color: #f29985;
+    width: 250px;
+    height: 300px;
+    border-radius: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 10px 5px 10px #56beb6;
+  }
+
+  .sectionTres .sectionTres__contenedor img {
+    width: 80%;
+    border-radius: 15%;
+    position: relative;
+    top: 10px;
+  }
+
+  .sectionTres .sectionTres__contenedor .nombre {
+    color: white;
+    position: relative;
+    top: 10px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .sectionTres .sectionTres__contenedor .otro {
+    width: 80%;
+    color: white;
+    position: relative;
+    bottom: 2%;
+    font-family: "Roboto", sans-serif;
+  }
 }
 
 /*Fin estilos home para pantallas medianas*/
