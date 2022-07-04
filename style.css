@@ -900,6 +900,88 @@
     bottom: 2%;
     font-family: "Roboto", sans-serif;
   }
+
+  /*Fin estilos pantalla mediana home*/
+
+  /*Inicio estilos pantalla mediana para Nosotros*/
+
+  /*Inicio maquetacion Nosotros*/
+  .grid-containerNosotros {
+    display: grid;
+    grid-template-rows: 120px 400px 600px 1500px 400px;
+    grid-template-areas:
+      "header"
+      "sectionUnoNosotros"
+      "sectionDosNosotros"
+      "sectionTresNosotros"
+      "footer";
+  }
+
+  /*Inicio sectionDosNosotros mediana*/
+  .sectionDosNosotros {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+  }
+
+  .sectionDosNosotros img {
+    width: 90vw;
+    height: 300px;
+    position: absolute;
+    top: 2%;
+    right: 5%;
+  }
+
+  .sectionDosNosotros p {
+    width: 80%;
+    position: absolute;
+    top: 350px;
+    right: 10%;
+  }
+
+  /*Fin estilos sectionDosNosotros pantalla mediana*/
+
+  /*Inicio sectionTresNosotros pantalla mediana*/
+
+  .sectionTresNosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .sectionTresNosotros__contenedor1 {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+  }
+
+  .sectionTresNosotros .sectionTresNosotros__contenedor1 div {
+    width: 90%;
+    height: 40%;
+  }
+
+  .sectionTresNosotros__contenedor2 h2 {
+    position: relative;
+    bottom: 5px;
+
+    color: white;
+    font-family: "Oswald", sans-serif;
+  }
+
+  .sectionTresNosotros__contenedor2 p {
+    position: relative;
+    bottom: 45px;
+    text-align: center;
+  }
+
+  .sectionTresNosotros__contenedor2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
 
-/*Fin estilos home para pantallas medianas*/
+/*Fin estilos para pantallas medianas*/
